@@ -1,0 +1,21 @@
+﻿  Czteromasztowiec.cpp
+D:\projekt pk3 statki\main\Czteromasztowiec.cpp(4,1): error C2512: "Statek": niedostępny odpowiedni konstruktor domyślny
+D:\projekt pk3 statki\main\Statek.h(11,7): message : zobacz deklarację „Statek”
+  main.cpp
+  Plansza.cpp
+D:\projekt pk3 statki\main\Plansza.cpp(84,34): error C2512: "Czteromasztowiec::Czteromasztowiec": niedostępny odpowiedni konstruktor domyślny
+D:\projekt pk3 statki\main\Plansza.cpp(84,34): message : podczas próby dopasowania listy argumentów "()"
+D:\projekt pk3 statki\main\Plansza.cpp(93,33): error C2280: „Trojmasztowiec::Trojmasztowiec(void)”: próba odwania do usuniętej funkcji
+D:\projekt pk3 statki\main\Trojmasztowiec.h(11,1): message : w tym miejscu kompilator wygenerował „Trojmasztowiec::Trojmasztowiec”
+D:\projekt pk3 statki\main\Trojmasztowiec.h(11,1): message : „Trojmasztowiec::Trojmasztowiec(void)”: Funkcja została niejawnie usunięta, ponieważ element klasa bazowa „Statek” albo nie ma odpowiedniego elementu domyślny konstruktor, albo rozpoznanie przeciążenia było niejednoznaczne
+D:\projekt pk3 statki\main\Statek.h(11,7): message : zobacz deklarację „Statek”
+D:\projekt pk3 statki\main\Plansza.cpp(103,32): error C2280: „Dwumasztowiec::Dwumasztowiec(void)”: próba odwania do usuniętej funkcji
+D:\projekt pk3 statki\main\Dwumasztowiec.h(11,1): message : w tym miejscu kompilator wygenerował „Dwumasztowiec::Dwumasztowiec”
+D:\projekt pk3 statki\main\Dwumasztowiec.h(11,1): message : „Dwumasztowiec::Dwumasztowiec(void)”: Funkcja została niejawnie usunięta, ponieważ element klasa bazowa „Statek” albo nie ma odpowiedniego elementu domyślny konstruktor, albo rozpoznanie przeciążenia było niejednoznaczne
+D:\projekt pk3 statki\main\Statek.h(11,7): message : zobacz deklarację „Statek”
+D:\projekt pk3 statki\main\Plansza.cpp(113,34): error C2280: „Jednomasztowiec::Jednomasztowiec(void)”: próba odwania do usuniętej funkcji
+D:\projekt pk3 statki\main\Jednomasztowiec.h(11,1): message : w tym miejscu kompilator wygenerował „Jednomasztowiec::Jednomasztowiec”
+D:\projekt pk3 statki\main\Jednomasztowiec.h(11,1): message : „Jednomasztowiec::Jednomasztowiec(void)”: Funkcja została niejawnie usunięta, ponieważ element klasa bazowa „Statek” albo nie ma odpowiedniego elementu domyślny konstruktor, albo rozpoznanie przeciążenia było niejednoznaczne
+D:\projekt pk3 statki\main\Statek.h(11,7): message : zobacz deklarację „Statek”
+  Statek.cpp
+  Generowanie kodu...
